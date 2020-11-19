@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>615</width>
+    <height>486</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLineEdit" name="Motor1_feedrate">
+    <property name="geometry">
+     <rect>
+      <x>111</x>
+      <y>41</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Motor2_feedrate">
+    <property name="geometry">
+     <rect>
+      <x>111</x>
+      <y>67</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Motor3_feedrate">
+    <property name="geometry">
+     <rect>
+      <x>111</x>
+      <y>93</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Motor4_feedrate">
+    <property name="geometry">
+     <rect>
+      <x>111</x>
+      <y>119</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Movement_m1">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>41</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Movement_m2">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>67</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Movement_m3">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>93</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Movement_m4">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>119</y>
+      <width>133</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>41</y>
+      <width>84</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Motor 1 Feedrate</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>67</y>
+      <width>84</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Motor 2 Feedrate</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>93</y>
+      <width>84</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Motor 3 Feedrate</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>119</y>
+      <width>84</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Motor 4 Feedrate</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>284</x>
+      <y>41</y>
+      <width>50</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Movement</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>284</x>
+      <y>67</y>
+      <width>50</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Movement</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>284</x>
+      <y>93</y>
+      <width>50</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Movement</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>284</x>
+      <y>119</y>
+      <width>50</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Movement</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Start">
+    <property name="geometry">
+     <rect>
+      <x>398</x>
+      <y>147</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="Axis_Select">
+    <property name="geometry">
+     <rect>
+      <x>79</x>
+      <y>148</y>
+      <width>69</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>X</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Z</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Y</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>146</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Select axis</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Jogup">
+    <property name="geometry">
+     <rect>
+      <x>154</x>
+      <y>147</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Jog+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Jogdown">
+    <property name="geometry">
+     <rect>
+      <x>235</x>
+      <y>147</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Jog-</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>253</x>
+      <y>41</y>
+      <width>25</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>mm/s</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>253</x>
+      <y>67</y>
+      <width>25</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>mm/s</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_14">
+    <property name="geometry">
+     <rect>
+      <x>253</x>
+      <y>93</y>
+      <width>25</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>mm/s</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_15">
+    <property name="geometry">
+     <rect>
+      <x>253</x>
+      <y>119</y>
+      <width>25</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>mm/s</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_16">
+    <property name="geometry">
+     <rect>
+      <x>481</x>
+      <y>41</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>mm</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_17">
+    <property name="geometry">
+     <rect>
+      <x>481</x>
+      <y>67</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>mm</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_18">
+    <property name="geometry">
+     <rect>
+      <x>481</x>
+      <y>93</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>mm</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_19">
+    <property name="geometry">
+     <rect>
+      <x>481</x>
+      <y>119</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>mm</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="Lcd">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>177</y>
+      <width>451</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Set">
+    <property name="geometry">
+     <rect>
+      <x>317</x>
+      <y>147</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Set</string>
+    </property>
+   </widget>
+   <zorder>Motor1_feedrate</zorder>
+   <zorder>Motor2_feedrate</zorder>
+   <zorder>Motor3_feedrate</zorder>
+   <zorder>Motor4_feedrate</zorder>
+   <zorder>Movement_m1</zorder>
+   <zorder>Movement_m2</zorder>
+   <zorder>Movement_m3</zorder>
+   <zorder>Movement_m4</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_8</zorder>
+   <zorder>label_10</zorder>
+   <zorder>Set</zorder>
+   <zorder>Start</zorder>
+   <zorder>Axis_Select</zorder>
+   <zorder>label_12</zorder>
+   <zorder>Jogup</zorder>
+   <zorder>Jogdown</zorder>
+   <zorder>Set</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_13</zorder>
+   <zorder>label_14</zorder>
+   <zorder>label_15</zorder>
+   <zorder>label_16</zorder>
+   <zorder>label_17</zorder>
+   <zorder>label_18</zorder>
+   <zorder>label_19</zorder>
+   <zorder>Lcd</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>615</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
